@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  /* color: red; */
+  /* text-decoration-line: overline underline; */
+  /* text-decoration-color: red; */
+  text-transform: capitalize;
+  text-align: center;
+  /* text-shadow: 2px 2px red; */
+  font-family: fantasy;
+  /* font-size: 10px; */
+  font-style: oblique;
+  font-family: "Kumar One", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+span {
+  font-weight: bold;
+  color: red;
+  font-size: 20px;
+}
+
+p {
+  /* text-indent: 10px; */
+  /* letter-spacing: 10px; */
+  /* line-height: 5; */
+  /* word-spacing: 10px; */
+  /* white-space: nowrap; */
+  font-family: "Kumar One", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.kumar-one-regular {
+  font-family: "Kumar One", serif;
+  font-weight: 400;
+  font-style: normal;
+}

@@ -5,26 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Home Page</title>
     <link rel="stylesheet" href="style.css" />
-
-    <style>
-      /* header,
-      main,
-      footer {
-        background-color: red;
-      } */
-
-      .headerTag {
-        background-color: red;
-      }
-
-      /* #headerTag {
-        background-color: red;
-      } */
-    </style>
   </head>
   <body>
     <!-- Opening Header Tag-->
-    <header class="headerTag" id="headerTag" style="background-color: green">
+    <header class="headerTag" id="headerTag">
       <nav>
         <ul>
           <li>
@@ -36,13 +20,24 @@
           <li>
             <a href="contact.html">Contact</a>
           </li>
+          <li class="signup">
+            <a href="signup.html">signup</a>
+          </li>
+          <li class="dropdown">
+            <a href="javascript:void(0)" class="dropbtn">Dropdown</a>
+            <div class="dropdown-content">
+              <a href="#">Link 1</a>
+              <a href="#">Link 2</a>
+              <a href="#">Link 3</a>
+            </div>
+          </li>
         </ul>
       </nav>
     </header>
     <!-- Closing Header Tag-->
     <!-- Opening Main Tag -->
     <main class="mainTag" id="mainTag">
-      <section>Section One</section>
+      <section class="sectionOne">Section One</section>
       <section>Section Two</section>
       <section>Section Three</section>
     </main>
